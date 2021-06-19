@@ -1,0 +1,31 @@
+.alumni_head{
+    text-align: center;
+    color: rgb(42, 42, 42);
+}
+.alumni{
+    display  :flex;
+    flex-wrap : wrap;
+    justify-content : center;
+}
+.alumnus{
+    width : 300px;
+    margin : 20px;
+    border : 1px solid grey;
+}
+.alumni .alumnus img{
+    width : 300px;
+    height : 250px;
+}
+.alumni .alumnus div{
+    padding : 5px;
+    text-align: justify;
+    font-size: 15px;
+}
+.alumni .alumnus div span{
+    color:red;
+    text-decoration: none;
+}
+.alumni .alumnus .alum_link{
+    text-decoration: none;
+    color: red;
+}
