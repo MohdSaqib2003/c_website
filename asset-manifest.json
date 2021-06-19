@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/c_website/static/css/main.e70d1252.chunk.css",
+    "main.js": "/c_website/static/js/main.73aae626.chunk.js",
+    "main.js.map": "/c_website/static/js/main.73aae626.chunk.js.map",
+    "runtime-main.js": "/c_website/static/js/runtime-main.bdb9275e.js",
+    "runtime-main.js.map": "/c_website/static/js/runtime-main.bdb9275e.js.map",
+    "static/js/2.d85db997.chunk.js": "/c_website/static/js/2.d85db997.chunk.js",
+    "static/js/2.d85db997.chunk.js.map": "/c_website/static/js/2.d85db997.chunk.js.map",
+    "static/js/3.dc5626fc.chunk.js": "/c_website/static/js/3.dc5626fc.chunk.js",
+    "static/js/3.dc5626fc.chunk.js.map": "/c_website/static/js/3.dc5626fc.chunk.js.map",
+    "index.html": "/c_website/index.html",
+    "static/css/main.e70d1252.chunk.css.map": "/c_website/static/css/main.e70d1252.chunk.css.map",
+    "static/js/2.d85db997.chunk.js.LICENSE.txt": "/c_website/static/js/2.d85db997.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/c_website/static/media/poly5.bf492d2a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bdb9275e.js",
+    "static/js/2.d85db997.chunk.js",
+    "static/css/main.e70d1252.chunk.css",
+    "static/js/main.73aae626.chunk.js"
+  ]
+}
