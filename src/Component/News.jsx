@@ -29,31 +29,31 @@ class News extends React.Component {
                     <div style={card}>
                         <h5 className="date">22/4/1021</h5>
                         <div className="notice">  <marquee behavior="alternate" scrolldelay="40"
-                         scrollamount="15"> <a href="https://pbs.twimg.com/media/Ef5pKkNX0AA6_2P.jpg" target="_blank">  Notice regarding semester exam, 2021 </a> </marquee></div> 
+                         scrollamount="13"> <a href="https://pbs.twimg.com/media/Ef5pKkNX0AA6_2P.jpg" target="_blank">  Notice regarding semester exam, 2021 </a> </marquee></div> 
                          
                     </div>
                     <div style={card}>
                         <h5 className="date">22/4/1021</h5>
                         <div className="notice">  <marquee behavior="alternate" scrolldelay="40"
-                         scrollamount="10"> <a href="https://pbs.twimg.com/media/Ef5pKkNX0AA6_2P.jpg" target="_blank"> Notice regarding semester exam, 2021 </a> </marquee></div> 
+                         scrollamount="8"> <a href="https://pbs.twimg.com/media/Ef5pKkNX0AA6_2P.jpg" target="_blank"> Notice regarding semester exam, 2021 </a> </marquee></div> 
                          
                     </div>
                     <div style={card}>
                         <h5 className="date">22/4/1021</h5>
                         <div className="notice">  <marquee behavior="alternate" direction="right" scrolldelay="40"
-                         scrollamount="14"> <a href="https://pbs.twimg.com/media/Ef5pKkNX0AA6_2P.jpg" target="_blank"> Notice regarding semester exam, 2021 </a> </marquee></div> 
+                         scrollamount="12"> <a href="https://pbs.twimg.com/media/Ef5pKkNX0AA6_2P.jpg" target="_blank"> Notice regarding semester exam, 2021 </a> </marquee></div> 
                          
                     </div>
                     <div style={card}>
                         <h5 className="date">22/4/1021</h5>
                         <div className="notice">  <marquee behavior="alternate" direction="right" scrolldelay="40"
-                         scrollamount="12"> <a href="https://pbs.twimg.com/media/Ef5pKkNX0AA6_2P.jpg" target="_blank"> Notice regarding semester exam, 2021 </a></marquee></div> 
-                         
-                    </div>
-                    <div style={card}>
-                        <h5 className="date">22/4/1021</h5>
-                        <div className="notice">  <marquee behavior="alternate" scrolldelay="40"
                          scrollamount="10"> <a href="https://pbs.twimg.com/media/Ef5pKkNX0AA6_2P.jpg" target="_blank"> Notice regarding semester exam, 2021 </a></marquee></div> 
+                         
+                    </div>
+                    <div style={card}>
+                        <h5 className="date">22/4/1021</h5>
+                        <div className="notice">  <marquee behavior="alternate" scrolldelay="40"
+                         scrollamount="9"> <a href="https://pbs.twimg.com/media/Ef5pKkNX0AA6_2P.jpg" target="_blank"> Notice regarding semester exam, 2021 </a></marquee></div> 
                          
                     </div>
                     

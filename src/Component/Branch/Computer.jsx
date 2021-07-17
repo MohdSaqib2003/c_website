@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './computer.css';
-
+ 
 class Computer extends Component {
     componentDidMount() {
         var lab_head = document.getElementsByClassName('lab_head');
@@ -65,6 +65,7 @@ class Computer extends Component {
                 <div className="comp_container">
                     <h1>About the Computer section</h1>
                     <div style={{ color: 'white', textAlign: 'justify', fontSize: '18px' }}>
+                        This department was introduced in 1998.
                         The Computer Science and Engineering department offers an overall course structure that provides a solid foundation for all basic parts of traditional (OS / Networks / DB / Data Structure) and modern aspects of computing.
                         The aim of department has been and continues to be a high quality degree program which ensures that students will be able to integrate theory and practical, recognize the importance and appreciate the value of efficient design created to meet clearly developed requirements. <br /><br /><br />
                     </div>

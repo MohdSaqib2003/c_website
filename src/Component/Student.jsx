@@ -4,7 +4,7 @@ class Student extends React.Component{
     render(){
         return (
             <div>
-                <h1>This is Student Page</h1>
+                <h1> Students are absent </h1>
             </div>
         )
     }

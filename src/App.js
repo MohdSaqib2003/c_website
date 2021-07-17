@@ -21,6 +21,7 @@ import Mechanical from './Component/Branch/Mechanical';
 
 import {NavLink , Route, Switch } from 'react-router-dom';
 import { render } from '@testing-library/react';
+import Axios from 'axios';
 
 function App() {
 
@@ -221,7 +222,39 @@ render(){
 
 
 class Footer extends React.Component{
+  constructor(props){
+    super(props);
+    this.state = {
+       name : '',
+       email : '',
+       message : ''
+    } 
+  }
+  getDate = (e)=>{
+    var na = e.target.name;
+    var val = e.target.value;
+    this.setState({
+      [na] : val
+    })
+  }
 
+  validate=(event)=>{
+     if(!(/(^[a-zA-Z])([\w\s]){2,}/.test(this.state.name))){
+        alert('Enter a valid name');
+        event.preventDefault();
+      }else if(!(/(^[a-zA-Z0-9\_]+)\@([a-z]+)\.([a-z]+)$/.test(this.state.email))){
+        alert('Enter a valid email');
+        event.preventDefault();
+      }else if(this.state.message==''){
+        alert('Write suggestion/query');
+        event.preventDefault();
+      }
+      else{
+        Axios.post('http://localhost:8080/suggestion', { name: this.state.name, email: this.state.email, message: this.state.message}).then((response) => {
+          console.log(response);
+      })
+      }
+  }
   componentDidMount=()=>{
     // setInterval(()=>{
     //   $('.sqbb').text(window.innerWidth);
@@ -282,11 +315,11 @@ class Footer extends React.Component{
 
         <div className="suggestion">
             <span className="suggest"> SUGGESTION </span> <br/>
-            <form action="#" method="POST">
-                <input type="text" name="name" placeholder="Name" className="suggest_name" autoComplete="OFF"/> <br/>
-                <input type="email" name="email" placeholder="E-mail" className="suggest_email" autoComplete="OFF"/> <br/>
-                <textarea name="textarea" cols="19" rows="3" placeholder="Message" className="suggest_text"></textarea>
-                <input type="submit" name="suggestion" className="suggest_submit"/>
+            <form onSubmit={this.validate}>
+                <input type="text" name="name" placeholder="Name" className="suggest_name" autoComplete="OFF" onChange={this.getDate}/> <br/>
+                <input type="email" name="email" placeholder="E-mail" className="suggest_email" autoComplete="OFF" onChange={this.getDate}/> <br/>
+                <textarea name="message" cols="19" rows="3" placeholder="Message" className="suggest_text" onChange={this.getDate}></textarea>
+                <input type="submit" className="suggest_submit"/>
             </form>
 
         </div>
@@ -308,5 +341,4 @@ class Footer extends React.Component{
   )
 }
 }
-
 export default App;

@@ -41,6 +41,7 @@ h1{
 }
 
 .side_nav{
+    
     /* float: left; */
     /* background-color: aquamarine; */
     /* border: 1px solid black; */
@@ -48,6 +49,9 @@ h1{
     width:240px;
     outline: 10px solid rgb(211, 210, 210);
     margin:5px 20px 10px 10px;
+
+   height: fit-content;
+    width: 17%;
 }
 .side_nav nav{
     padding:5px 10px;
@@ -71,4 +75,60 @@ hr{
 .main_body{
     display: flex;
     flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.route{
+    width : 75%
+}
+
+.faculty{
+    padding: 20px;
+    padding-top: 10px;
+    background-color: #F5F5F5;
+    border-radius:3px;
+    margin-top:10px;
+    border: 1px solid rgb(194, 192, 192);
+}
+.faculty a{
+    text-decoration: none;
+}
+.faculty_pic{
+    float: right;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+
+
+
+
+
+@media only screen and (max-width:1200px){
+    .side_nav{
+        width : 240px;
+    }
+    .route{
+        width : 100%
+    }
+    
+}
+
+@media only screen and (max-width:500px){
+    .faculty_pic{
+        float: none;
+        display: block;
+        margin-left: 0;
+    }
 }

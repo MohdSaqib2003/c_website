@@ -38,3 +38,10 @@
     text-decoration: none;
     color: rgb(252, 49, 49)
 }
+
+
+@media only screen and (max-width:600px){
+    .notice{
+        font-size: 13px;
+    }
+ }
