@@ -11,6 +11,7 @@
   src: local("font"),url("./fonts/Rakkas.ttf") format("truetype");
 }
 
+
 img.jamia_logo{
   float: left;
   height: 140px;
@@ -62,6 +63,7 @@ h3.jamia_millia_islamia{
   position: relative;
   text-align: center;
   color:#c0392b;
+  color:#C00404;
   font-family:font;
   font-weight:bolder;
   word-spacing: 7px;
@@ -111,7 +113,9 @@ h3.jamia_millia_islamia{
 
 .nav ul li a{
   text-decoration:none;
-  color:yellow;
+  /* color:yellow; */
+  color:white;
+  /* color: green; */
   font-size:15px;
   padding:13px;
   /* padding-left:15px;
@@ -169,6 +173,9 @@ h3.jamia_millia_islamia{
  .sub{
   display:none;
   z-index: 1;
+  /* transition-property: all;
+  transition-timing-function: linear;
+  transition-duration: 3s; */
  }
 .sub ul{
   background-color:#757575;
@@ -176,14 +183,20 @@ h3.jamia_millia_islamia{
   margin-left:-10px;
   margin-right:-10px;
   position: relative;
+  /* transition-property: all;
+  transition-timing-function: linear;
+  transition-duration: 2s; */
 }
 
 .nav ul li:hover .sub{
-    
     display:block;
     position: absolute;
     margin-left:0px;
+    /* transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 2s; */
   }   
+
   
 .nav ul li:hover .sub ul{
     display:block;
@@ -568,7 +581,27 @@ hr{
   background-color: #504e4e;
 }
 
-@media only screen and (max-width:1229px){
+
+
+#fb:hover{
+  background-color: #1877F2;
+  border-radius: 6px;
+  outline: none;
+}
+#twrr:hover{
+  background-color: #1DA1F2;
+  border-radius: 7px;
+}
+#insta:hover{
+  background-color: #0A66C2;
+}
+
+
+
+
+
+
+/* @media only screen and (max-width:1232px){
    footer{
        height: 430px;
    }
@@ -581,27 +614,52 @@ hr{
 @media only screen and (max-width:603px){
    footer{
        height: 840px;
+   }
+} */
+
+@media only screen and (max-width:1596px){
+   footer{
+       height: 430px;
+   }
+}
+@media only screen and (max-width:928px){
+   footer{
+       height: 630px;
+   }
+}
+@media only screen and (max-width:747px){
+   footer{
+       height: 840px;
+       /* height: 1000px; */
+   }
+}
+@media only screen and (max-width:629px){
+   footer{
+       height: 1040px;
        /* height: 1000px; */
    }
 }
 
 .copyright{
 background-color: #1d1d1d;
-padding:1%;
-font-size: 17px;
-color: rgb(77, 75, 75);
+background-color: rgb(24, 24, 24);
+/* padding:1%; */
+padding: 10px;
+font-size: 14px;
+/* color: rgb(77, 75, 75); */
+color: white;
 z-index: -2;
 /* float: left; */
 text-align: center;
 }
 
-.copyright a{
+/* .copyright a{
   color: rgb(94, 92, 92);
   text-decoration: none;
 }
 .copyright a:hover{
   text-decoration: underline;
-}
+} */
 
 /* footer End */
 

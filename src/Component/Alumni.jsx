@@ -85,7 +85,7 @@ class Home_alumni extends React.Component {
                          <div className="alumnus" >
                                 <img  src={process.env.PUBLIC_URL + "/polytechnic/male.jpg"} alt="Cinque Terre" width="600" height="400" />
                             <div >
-                            <h3>Anchal </h3>
+                            <h3>Anchal Panday</h3>
                             Batch : 2003 <br/>
                             Anchal currently working as a Senior Software Enginner at Japan Times in Tokyo city. Anchal received Master Of Technology degree from Stanford University in 2010. <br/>
                             <span>Read More&raquo;</span>

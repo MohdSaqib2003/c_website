@@ -40,5 +40,20 @@
     text-align: center;
   }
   .gallery img:hover{
-      transform: scale(3,2.5);
+      /* transform: scale(3,2.5); */
+      animation:ani;
+      animation-timing-function: linear;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-direction:alternate;
+      /* animation-iteration-count: ; */
+    }
+    
+  @keyframes ani{
+      0%{
+      transform: scale(1,1);
+      }
+      100%{
+        transform: scale(3,2.5);
+      }
   }

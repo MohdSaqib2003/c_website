@@ -1,9 +1,4 @@
-.alumni_head{
-    text-align: center;
-    color: rgb(42, 42, 42);
-
-}
-.alumni_head{
+.news_head{
     font-size: 30px;
     /* font-size: 150%; */
     color: white;
@@ -20,36 +15,26 @@
     transition-timing-function: linear;
     transition-duration: 1s;
 }
-.alumni_head:hover{
+
+.news_head:hover{
     background-color:white;
     color: #C00404;
     border:1px solid #C00404;
     border-left:5px solid #C00404;
 }
-.alumni{
-    display  :flex;
-    flex-wrap : wrap;
-    justify-content : center;
+
+.date{
+    padding-left: 10px;
+    display: inline;
 }
-.alumnus{
-    width : 300px;
-    margin : 20px;
-    border : 1px solid grey;
+.notice{
+    padding-left: 10px;
+    text-align: center;
+    position: relative;
+    top: -5px;
+    font-weight: bold;
 }
-.alumni .alumnus img{
-    width : 300px;
-    height : 250px;
-}
-.alumni .alumnus div{
-    padding : 5px;
-    text-align: justify;
-    font-size: 15px;
-}
-.alumni .alumnus div span{
-    color:red;
+.notice a{
     text-decoration: none;
-}
-.alumni .alumnus .alum_link{
-    text-decoration: none;
-    color: red;
+    color: rgb(252, 49, 49)
 }
